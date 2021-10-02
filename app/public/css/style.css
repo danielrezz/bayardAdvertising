@@ -1,0 +1,246 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#logo {
+  width: 75%;
+  margin-left: 22px;
+}
+
+.navbar .container-fluid {
+  justify-content: unset;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  margin: 0px;
+}
+
+#mainFormDiv {
+  margin-top: 40px;
+}
+
+.mb-3 {
+  margin-bottom: 5px !important;
+}
+
+.input-group-lg .btn {
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 12px 0 12px 0;
+  margin-top: 12px;
+  line-height: 36px;
+}
+
+#alertBox {
+  display: none;
+}
+
+h4 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.input-group-lg .form-control {
+  border-radius: 0;
+  border-width: 1px;
+  line-height: 40px;
+}
+
+.form-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+#mainCaption {
+  z-index: 1;
+  font-size: 48px;
+  max-width: 30%;
+  margin-left: 30px;
+  margin-top: 60px;
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  color: white;
+  text-shadow: 2px 2px 4px #585858;
+}
+
+.img-fluid {
+  display: inline-block;
+  overflow: hidden;
+  height: 88%;
+  width: auto;
+  object-fit: cover;
+  object-position: 50% 10%;
+  position: relative;
+}
+
+.left {
+  height: 110vh;
+  width: 108%;
+}
+
+.right {
+  height: 110vh;
+  width: 95%;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 46px 0 46px 0;
+  margin-top: 80px;
+  bottom: 0;
+}
+
+#footerText {
+  font-size: 14px;
+}
+
+@media only screen and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  #logo {
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  .col-5 {
+    width: 87%;
+    height: 80;
+    display: flex;
+  }
+
+  .img-fluid {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+    object-fit: cover;
+    object-position: 50% 10%;
+    position: relative;
+    background-size: 80% 80%;
+  }
+
+  .left {
+    height: 80vh;
+  }
+
+  .right {
+    display: inline;
+  }
+
+  #mainCaption {
+    z-index: 1;
+    font-size: 31px;
+    max-width: 80%;
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+
+  #mainFormDiv {
+    margin-top: -20px;
+    max-width: 100%;
+  }
+
+  h4 {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #footerText {
+    text-align: center;
+    font-size: 15px;
+    max-width: 65%;
+  }
+}
+
+@media screen and (min-device-width: 414px) and (-webkit-device-pixel-ratio: 3) {
+  #logo {
+    width: 95%;
+    margin-left: 0px;
+  }
+
+  .col-5 {
+    width: 87%;
+    height: 80;
+    display: flex;
+  }
+
+  .img-fluid {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+    object-fit: cover;
+    object-position: 50% 10%;
+    position: relative;
+    background-size: 80% 80%;
+  }
+
+  .left {
+    height: 80vh;
+  }
+
+  .right {
+    display: inline;
+    width: 100%;
+  }
+
+  #mainCaption {
+    z-index: 1;
+    font-size: 35px;
+    max-width: 80%;
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+
+  #mainFormDiv {
+    margin-top: -20px;
+    max-width: 100%;
+  }
+
+  .container-fluid {
+    width: 80%;
+    margin-left: 3px;
+  }
+
+  h4 {
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #footerText {
+    text-align: center;
+    font-size: 15px;
+    max-width: 60%;
+  }
+}
